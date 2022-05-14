@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(249, 251, 254);
+  margin: 30px;
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+.sec-text{
+   color:hsl(0, 0%, 81%);
+   opacity: 50%;
+}
+.pushin-p{
+    color:hsl(0, 0%, 81%);
+    opacity: 70%;
+}
+.daniel {
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 10px;
+  padding: 20px;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-position-x: right;
+}
+.img-area-1 {
+  display: flex;
+}
+.daniel p {
+  margin-top: 10px;
+  color: hsl(0, 0%, 81%);
+}
+.daniel h2 {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.daniel img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.jon {
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+  padding: 20px;
+}
+.jon img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.img-area-2{
+    display: flex;
+}
+.jon p{
+ margin-top: 10px;
+ color: hsl(0, 0%, 81%);
+
+}
+.jon h2{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.jean {
+    background-color: #fff ;
+    border-radius: 10px;
+    padding: 20px;
+  }
+.jean img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.img-area-3{
+    display: flex;
+}
+.jean p{
+    margin-top: 10px;
+    color: hsl(217, 19%, 35%) ;
+}
+.jean h2{
+    color: hsl(217, 19%, 35%);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%) ;
+    border-radius: 10px;
+    padding: 20px;
+}
+.patrick img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.img-area-4{
+    display: flex;
+}
+.patrick p{
+    margin-top: 10px;
+    color: hsl(0, 0%, 81%);
+}
+.patrick h2{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.kira {
+    background-color: #fff ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.kira img {
+    border-radius: 50%;
+    margin-right: 10px
+}
+.img-area-5{
+    display: flex;
+}
+.kira p{
+    margin-top: 10px;
+   color: hsl(217, 19%, 35%) 
+}
+.kira h2{
+    color: hsl(217, 19%, 35%);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 800px){ 
+    body{
+        background-color: rgb(240, 247, 253);
+    }
+    
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+    .daniel{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 20px;
+    }
+     .jon{ 
+         grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 20px;
+
+     } 
+    .jean{
+        grid-column-end:3;
+        grid-row-start: 2;
+        grid-row-end:3 ;
+        padding: 20px;
+
+    }
+    .patrick{
+        grid-column-start: 3;
+        grid-column-end:5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding: 20px;
+    }
+    .kira{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        padding: 20px;
+    }
+    .jean img{
+        border-radius: 50%;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
